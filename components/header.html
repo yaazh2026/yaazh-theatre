@@ -1,0 +1,60 @@
+<!-- ============================================================
+     HEADER COMPONENT — Sticky, Elegant Navigation
+     Usage: Include via JS fetch or copy into each page
+     ============================================================ -->
+<header id="site-header" class="site-header" role="banner">
+  <div class="header-inner container">
+
+    <!-- Logo -->
+    <a href="../index.html" class="logo" aria-label="Yaazh Theatre Home">
+      <div class="logo-icon" aria-hidden="true">
+        <img src="../assets/images/Yaazh_Logo.png" alt="Yaazh Logo" width="36" height="36" style="object-fit: contain;">
+      </div>
+      <div class="logo-text">
+        <span class="logo-name">Yaazh</span>
+        <span class="logo-sub">Theatre &amp; Research Foundation</span>
+      </div>
+    </a>
+
+    <!-- Primary Navigation -->
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+      <ul class="nav-list" role="list">
+        <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+        <li><a href="../pages/shop.html" class="nav-link" data-page="shop">Shop</a></li>
+        <li><a href="../pages/course.html" class="nav-link" data-page="course">Course</a></li>
+        <li><a href="../pages/blog.html" class="nav-link" data-page="blog">Blog</a></li>
+      </ul>
+    </nav>
+
+    <!-- Right Actions -->
+    <div class="header-actions">
+      <a href="#contact" class="btn btn-primary btn-contact">
+        <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.21 12 19.79 19.79 0 011.12 3.36 2 2 0 013.11 1.14h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L7.09 8.92a16 16 0 006 6l1.14-1.14a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z"/></svg>
+        Contact Us
+      </a>
+      <!-- Hamburger for mobile -->
+      <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav">
+        <span class="ham-bar"></span>
+        <span class="ham-bar"></span>
+        <span class="ham-bar"></span>
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Mobile Drawer -->
+  <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+    <nav aria-label="Mobile navigation">
+      <ul class="mobile-nav-list" role="list">
+        <li><a href="../index.html" class="mobile-nav-link" data-page="home">Home</a></li>
+        <li><a href="../pages/shop.html" class="mobile-nav-link" data-page="shop">Shop</a></li>
+        <li><a href="../pages/course.html" class="mobile-nav-link" data-page="course">Course</a></li>
+        <li><a href="../pages/blog.html" class="mobile-nav-link" data-page="blog">Blog</a></li>
+        <li><a href="#contact" class="mobile-nav-link mobile-cta">Contact Us</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-drawer-footer">
+      <p class="font-literary" style="font-style:italic;color:var(--text-muted);font-size:0.85rem;">"Where the stage becomes life, and life becomes art."</p>
+    </div>
+  </div>
+</header>

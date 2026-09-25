@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yaazh Theatre & Research Foundation | Dramatic Arts & Acting Education</title>
+  <meta name="description"
+    content="Premium theatre foundation in India offering acting courses, research-based drama education, and a curated shop for theatre enthusiasts.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
+  <link rel="apple-touch-icon" href="assets/images/favicon.png">
+
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="styles/main.css">
+  <link rel="stylesheet" href="styles/header.css">
+  <link rel="stylesheet" href="styles/footer.css">
+  <link rel="stylesheet" href="styles/home.css">
+
+  <!-- Performance Optimization: Preload Hero Image -->
+  <link rel="preload" as="image" href="assets/images/hero-stage.png">
+</head>
+
+<body data-page="home" class="noise-overlay page-fade">
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="header-inner container">
+      <!-- Logo -->
+      <a href="index.html" class="logo" aria-label="Yaazh Theatre Home">
+        <div class="logo-icon" aria-hidden="true">
+          <img src="assets/images/Yaazh_Logo.png" alt="Yaazh Logo" width="36" height="36" style="object-fit: contain;">
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Yaazh</span>
+          <span class="logo-sub">Theatre &amp; Research Foundation</span>
+        </div>
+      </a>
+
+      <!-- Primary Navigation -->
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <ul class="nav-list" role="list">
+          <li><a href="index.html" class="nav-link active" data-page="home">Home</a></li>
+          <li><a href="pages/shop.html" class="nav-link" data-page="shop">Shop</a></li>
+          <li><a href="pages/course.html" class="nav-link" data-page="course">Course</a></li>
+          <li><a href="pages/blog.html" class="nav-link" data-page="blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <!-- Right Actions -->
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-contact">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+            aria-hidden="true">
+            <path
+              d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.21 12 19.79 19.79 0 011.12 3.36 2 2 0 013.11 1.14h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L7.09 8.92a16 16 0 006 6l1.14-1.14a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z" />
+          </svg>
+          Contact Us
+        </a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Toggle navigation menu" aria-expanded="false"
+          aria-controls="primary-nav">
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+          <span class="ham-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <ul class="mobile-nav-list" role="list">
+          <li><a href="index.html" class="mobile-nav-link" data-page="home">Home</a></li>
+          <li><a href="pages/shop.html" class="mobile-nav-link" data-page="shop">Shop</a></li>
+          <li><a href="pages/course.html" class="mobile-nav-link" data-page="course">Course</a></li>
+          <li><a href="pages/blog.html" class="mobile-nav-link" data-page="blog">Blog</a></li>
+          <li><a href="#contact" class="mobile-nav-link mobile-cta">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         HERO SECTION
+         ============================================================ -->
+    <section class="hero" id="home">
+      <div class="hero-bg">
+        <img src="assets/images/hero-stage.png" alt="Dramatic Theatre Stage" width="1920" height="1080">
+        <div class="hero-overlay"></div>
+        <div class="hero-vignette"></div>
+      </div>
+
+      <!-- Decorative Beams -->
+      <div class="hero-beam hero-beam-1"></div>
+      <div class="hero-beam hero-beam-2"></div>
+      <div class="hero-beam hero-beam-3"></div>
+
+      <div class="container">
+        <div class="hero-content">
+
+          <h1 class="hero-title">An independent space <em>for theatre and research</em></h1>
+          <p class="hero-subtitle">Bridging traditional and contemporary theatre arts through experimental
+            practice to create an inclusive, democratic space for artists, audiences, and research</p>
+          <div class="hero-ctas">
+            <a href="pages/course.html" class="btn btn-primary btn-lg">Explore Courses</a>
+            <a href="pages/shop.html" class="btn btn-secondary btn-lg">Visit Shop</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-scroll">
+        <span>Scroll to Explore</span>
+        <div class="scroll-mouse"></div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         STATS STRIP
+         ============================================================ -->
+    <section class="stats-strip">
+      <div class="container">
+        <div class="stats-grid">
+          <div class="stat-item">
+            <div class="stat-number" data-count="17" data-suffix="+">0</div>
+            <div class="stat-label">Years of Legacy</div>
+          </div>
+          <hr class="stat-divider">
+          <div class="stat-item">
+            <div class="stat-number" data-count="100" data-suffix="+">0</div>
+            <div class="stat-label">Students Trained</div>
+          </div>
+          <hr class="stat-divider">
+          <div class="stat-item">
+            <div class="stat-number" data-count="40" data-suffix="+">0</div>
+            <div class="stat-label">Productions</div>
+          </div>
+          <hr class="stat-divider">
+          <div class="stat-item">
+            <div class="stat-number" data-count="50" data-suffix="+">0</div>
+            <div class="stat-label">Awards</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BOOKS SECTION
+         ============================================================ -->
+    <section class="py-section books-section">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Literary Corner</span>
+          <h2 class="section-title">The Library</h2>
+          <p class="section-subtitle">Curated research papers, scripts, and instructional guides authored by our masters
+            to deepen your understanding of the craft.</p>
+        </div>
+
+        <div class="grid-3">
+          <!-- Book 1 -->
+          <div class="book-card reveal">
+            <div class="book-img-wrap">
+              <img src="assets/images/book1.jpg" alt="சிகப்புக் கண்ணாடி - தமிழ் நாடகங்கள்" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="badge badge-red book-category">Scripts</span>
+              <h3 class="book-title">சிகப்புக் கண்ணாடி</h3>
+              <p class="book-author">By ஞா. கோபி</p>
+              <p class="book-desc">தமிழ் நாடகங்களின் சிறப்பான தொகுப்பு மற்றும் நவீன மேடைப் பிரதிகள்.</p>
+              <a href="pages/shop.html" class="btn btn-secondary" style="width:100%; justify-content:center;">View
+                Details</a>
+            </div>
+          </div>
+
+          <!-- Book 2 -->
+          <div class="book-card reveal delay-1">
+            <div class="book-img-wrap">
+              <img src="assets/images/book2.jpg" alt="எஸ். பி. சீனிவாசனின் மேடைக் காட்சியமைப்பு" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="badge badge-blue book-category">Research</span>
+              <h3 class="book-title">மேடைக் காட்சியமைப்பு</h3>
+              <p class="book-author">By ம. சந்தானபூபதி</p>
+              <p class="book-desc">எஸ். பி. சீனிவாசனின் நாடக மேடைக் காட்சியமைப்பு மற்றும் நுட்பங்கள் பற்றிய விரிவான
+                ஆய்வு நூல்.</p>
+              <a href="pages/shop.html" class="btn btn-secondary" style="width:100%; justify-content:center;">View
+                Details</a>
+            </div>
+          </div>
+
+          <!-- Book 3 -->
+          <div class="book-card reveal delay-2">
+            <div class="book-img-wrap">
+              <img src="assets/images/book3.jpg" alt="பொன்னர் சங்கர் கூத்தில் வகிபாகச் சித்திரிப்பு" loading="lazy">
+            </div>
+            <div class="book-info">
+              <span class="badge badge-gold book-category">Instruction</span>
+              <h3 class="book-title">பொன்னர் சங்கர் கூத்து</h3>
+              <p class="book-author">By மெய்யநாதன் கேதீஸ்வரன்</p>
+              <p class="book-desc">பொன்னர் சங்கர் கூத்தில் வகிபாகச் சித்திரிப்பு மற்றும் பாரம்பரிய நாடக மரபு ஆய்வுகள்.
+              </p>
+              <a href="pages/shop.html" class="btn btn-secondary" style="width:100%; justify-content:center;">View
+                Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         ABOUT SECTION
+         ============================================================ -->
+
+    <section class="py-section about-section" id="about">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual reveal reveal-left">
+            <div class="about-img-main">
+              <img src="assets/images/story-main.jpg" alt="Yaazh Theatre Mask Performance">
+            </div>
+            <div class="about-img-accent">
+              <img src="assets/images/story-accent.jpg" alt="Yaazh Dramatic Production">
+            </div>
+            <div class="about-years-badge">
+              <div class="num">17+</div>
+              <div class="lbl">Years of Art</div>
+            </div>
+          </div>
+
+          <div class="about-content reveal reveal-right">
+            <span class="section-label">Our Story</span>
+            <h2 class="section-title">A Theatre Rooted in Tradition, Research & Community</h2>
+            <p class="section-subtitle">Our theatre began in 2009 as the Yaazh Art Centre, founded by a group of
+              Puducherry-based dramatists and painters who shared a simple conviction: that traditional art forms and
+              contemporary practice need not stand apart.
+              In 2021, Yaazh became a dedicated theatre and research organisation, with its own training space and a
+              growing library. What began as a shared vision among artists has since evolved into an institution built
+              to last. As Yaazh marks its fifth year as a registered foundation, it continues to grow, exploring and
+              creating new spaces for theatre..
+            </p>
+
+
+
+            <div style="margin-top: 2.5rem;">
+              <a href="pages/course.html" class="btn btn-gold">Learn Our Method</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ============================================================
+         AWARDS SECTION
+         ============================================================ -->
+    <section class="py-section awards-section">
+      <div class="awards-bg-pattern"></div>
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Recognition</span>
+          <h2 class="section-title">Excellence in Drama</h2>
+          <p class="section-subtitle">Our commitment to the arts has been recognized on national and international
+            stages.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="award-card reveal">
+            <div class="award-icon-wrap">
+              <img src="assets/images/national-selection-icon.png" alt="Bahuroopi National Theatre Festival Emblem"
+                width="48" height="48" loading="lazy">
+            </div>
+            <h3 class="award-title">National Selection</h3>
+            <p class="award-body">Bahuroopi National Theatre Festival, Mysuru, Karnataka</p>
+            <span class="award-year">2022 FEATURED</span>
+          </div>
+          <div class="award-card reveal delay-1">
+            <div class="award-icon-wrap">
+              <img src="assets/images/dhamma-festival-icon.png" alt="Dhamma Theatre Festival Emblem"
+                width="48" height="48" loading="lazy">
+            </div>
+            <h3 class="award-title">Recurring Feature</h3>
+            <p class="award-body">Dhamma Theatre Festival, Chennai</p>
+            <span class="award-year">2022–2024 FEATURED</span>
+          </div>
+          <div class="award-card reveal delay-2">
+            <div class="award-icon-wrap">
+              <img src="assets/images/nsd-festival-icon.png" alt="National School of Drama (NSD) International Theatre Festival Emblem"
+                width="48" height="48" loading="lazy">
+            </div>
+            <h3 class="award-title">International Selection</h3>
+            <p class="award-body">National School of Drama (NSD) International Theatre Festival</p>
+            <span class="award-year">2025 FEATURED</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         Academy LIST SECTION
+         ============================================================ -->
+
+
+    <section class="py-section course-preview-section">
+      <div class="container">
+        <div class="course-preview-grid">
+          <div class="course-preview-visual reveal reveal-left">
+            <img src="assets/images/academy-workshop.jpg" alt="Acting Workshop & Performance Training">
+            <div class="course-preview-overlay"></div>
+            <div class="course-preview-tag">
+              <!-- <span class="badge badge-red">Next Batch: August 2026</span> -->
+              <span class="badge badge-gold">Limited Seats</span>
+            </div>
+          </div>
+
+          <div class="course-preview-content reveal reveal-right">
+            <span class="section-label">Academy</span>
+            <h2 class="section-title">Professional Acting Performance</h2>
+            <p class="section-subtitle">A 6-month intensive diploma designed to transform aspiring talent into
+              disciplined stage professionals.</p>
+
+            <div class="course-benefits">
+              <div class="benefit-item">
+                <div class="benefit-icon">✦</div>
+                <div class="benefit-text">
+                  <h4>The Body as Instrument, Voice & Resonators, The Inner Landscape, The Live Production, Styles of
+                    Acting, Camera & Audition Craft</h4>
+                </div>
+              </div>
+            </div>
+
+            <div style="margin-top: 2rem; display: flex; gap: 1rem;">
+              <a href="pages/course.html" class="btn btn-primary">Course Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         YOUTUBE VIDEO LIST SECTION
+         ============================================================ -->
+    <section class="py-section video-section" id="videos">
+      <div class="video-bg-pattern"></div>
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Performances &amp; Media</span>
+          <h2 class="section-title">Featured Video Archives</h2>
+          <p class="section-subtitle">Experience highlights of our acclaimed stage plays, acting masterclasses, and
+            research discussions.</p>
+        </div>
+
+        <!-- Video Grid (Single Line, 3 Videos) -->
+        <div class="video-grid">
+          <!-- Video Card 1 -->
+          <a href="https://youtu.be/97FI0L1__90" target="_blank" rel="noopener noreferrer" class="video-card reveal"
+            aria-label="Watch Yaazh Theatre & Acting Workshop Performance on YouTube">
+            <div class="video-thumb-wrap">
+              <img src="https://img.youtube.com/vi/97FI0L1__90/hqdefault.jpg"
+                alt="Yaazh Theatre &amp; Acting Workshop Performance" loading="lazy">
+              <div class="play-btn-overlay">
+                <div class="play-icon-glow">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="video-card-body">
+              <h3 class="video-card-title">Yaazh Theatre &amp; Acting Workshop Performance</h3>
+              <span class="video-link-hint">Watch on YouTube <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                </svg></span>
+            </div>
+          </a>
+
+          <!-- Video Card 2 -->
+          <a href="https://youtu.be/9Cks3QJrny8" target="_blank" rel="noopener noreferrer"
+            class="video-card reveal delay-1"
+            aria-label="Watch Dramatic Expressions & Stage Production Showcase on YouTube">
+            <div class="video-thumb-wrap">
+              <img src="https://img.youtube.com/vi/9Cks3QJrny8/hqdefault.jpg" alt="Dramatic Expressions Showcase"
+                loading="lazy">
+              <div class="play-btn-overlay">
+                <div class="play-icon-glow">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="video-card-body">
+              <h3 class="video-card-title">Dramatic Expressions &amp; Stage Production Showcase</h3>
+              <span class="video-link-hint">Watch on YouTube <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                </svg></span>
+            </div>
+          </a>
+
+          <!-- Video Card 3 -->
+          <a href="https://youtu.be/3Frr7VrFV_U" target="_blank" rel="noopener noreferrer"
+            class="video-card reveal delay-2"
+            aria-label="Watch Yaazh Theatre Festival & Research Highlights on YouTube">
+            <div class="video-thumb-wrap">
+              <img src="https://img.youtube.com/vi/3Frr7VrFV_U/hqdefault.jpg" alt="Yaazh Theatre Festival Highlights"
+                loading="lazy">
+              <div class="play-btn-overlay">
+                <div class="play-icon-glow">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M8 5v14l11-7z" />
+                  </svg>
+                </div>
+              </div>
+            </div>
+            <div class="video-card-body">
+              <h3 class="video-card-title">Yaazh Theatre Festival &amp; Research Highlights</h3>
+              <span class="video-link-hint">Watch on YouTube <svg width="14" height="14" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2.5">
+                  <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6M15 3h6v6M10 14L21 3" />
+                </svg></span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         GALLERY SECTION
+         ============================================================ -->
+    <section class="py-section gallery-section" id="gallery">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Visual Journey</span>
+          <h2 class="section-title">Life on the Boards</h2>
+        </div>
+
+        <div class="gallery-grid">
+          <div class="gallery-item reveal">
+            <img src="assets/images/1 (1).JPG.jpeg" alt="Yaazh Theatre Performance" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-1">
+            <img src="assets/images/1 (6).JPG.jpeg" alt="Yaazh Stage Production" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-2">
+            <img src="assets/images/1 (8).JPG.jpeg" alt="Yaazh Acting Workshop" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-3">
+            <img src="assets/images/1 (10).JPG.jpeg" alt="Yaazh Rehearsal Session" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-4">
+            <img src="assets/images/20.jpg.jpeg" alt="Yaazh Theatre Ensemble" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-5">
+            <img src="assets/images/47.jpg.jpeg" alt="Yaazh Drama Highlights" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+          <div class="gallery-item reveal delay-6">
+            <img src="assets/images/90.jpg.jpeg" alt="Yaazh Foundation Event" loading="lazy">
+            <div class="gallery-item-overlay">
+              <div class="gallery-zoom-icon">🔍</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         THEATRE BLOG & CHRONICLES
+         ============================================================ -->
+    <section class="py-section blog-preview-section" id="blog-preview"
+      style="background: var(--dark-surface); border-top: 1px solid var(--border-subtle); border-bottom: 1px solid var(--border-subtle);">
+      <div class="container">
+        <div class="section-header"
+          style="display: flex; justify-content: space-between; align-items: flex-end; flex-wrap: wrap; gap: 1rem; margin-bottom: 3rem;">
+          <div>
+            <span class="section-label">Dispatches &amp; Documentation</span>
+            <h2 class="section-title">From Our Theatre Journal</h2>
+            <p class="section-subtitle">Play synopses, folk art workshops, performance histories, and social dramas from
+              Yaazh.</p>
+          </div>
+          <a href="pages/blog.html" class="btn btn-secondary" style="font-size: 0.85rem;">
+            View All Chronicles &amp; Plays →
+          </a>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 2rem;">
+          <!-- Blog 1 -->
+          <article class="reveal"
+            style="background: var(--grad-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; display: flex; flex-direction: column;">
+            <div style="height: 220px; overflow: hidden; position: relative;">
+              <span
+                style="position: absolute; top: 1rem; left: 1rem; z-index: 2; padding: 0.3rem 0.75rem; background: rgba(10,10,11,0.85); border: 1px solid var(--border-gold); border-radius: 100px; color: var(--gold); font-size: 0.72rem; font-weight: 600; text-transform: uppercase;">Folk
+                Arts &amp; Koothu</span>
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgsQ1H_oAS2czPeY9ADNIeQO6izuMuxtDQMNwpNYilfoDbtg6XqfnPOMhEj4eYvFMN_hx6M3QTiJzTAsimZRdoFiRQw4M3FYM5NRWU87YJM3IgpfAiZWG2dDrlH1iIAXRo3xmrns98fWn9v2C7dP9tUSkTjxUO4xhANZqJF7MtFP1A5oJbqLn1SPAuOW3uH/s1600/WhatsApp%20Image%202024-01-09%20at%2020.48.48.jpeg"
+                alt="Therukoothu Workshop" style="width: 100%; height: 100%; object-fit: cover;"
+                onerror="this.src='assets/images/story-main.jpg'">
+            </div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+              <span style="font-size: 0.8rem; color: var(--gold); margin-bottom: 0.5rem;">January 2024 • 10-Day
+                Workshop</span>
+              <h3 class="font-display"
+                style="font-size: 1.2rem; color: var(--text-primary); margin-bottom: 0.6rem; line-height: 1.3;">
+                Therukoothu Training Workshop &amp; Performance</h3>
+              <p
+                style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex: 1;">
+                Handing over Therukoothu, the pioneering art form of Tamil theatre, to the younger generation through
+                intensive free training and public performances.</p>
+              <a href="pages/blog.html#therukoothu" class="btn btn-primary"
+                style="text-align: center; justify-content: center; font-size: 0.82rem;">Read Full Story →</a>
+            </div>
+          </article>
+
+          <!-- Blog 2 -->
+          <article class="reveal delay-1"
+            style="background: var(--grad-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; display: flex; flex-direction: column;">
+            <div style="height: 220px; overflow: hidden; position: relative;">
+              <span
+                style="position: absolute; top: 1rem; left: 1rem; z-index: 2; padding: 0.3rem 0.75rem; background: rgba(10,10,11,0.85); border: 1px solid var(--border-gold); border-radius: 100px; color: var(--gold); font-size: 0.72rem; font-weight: 600; text-transform: uppercase;">Solo
+                Performance</span>
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgZVvOw1znoh2ecv98OKmI5uI-TNkLo7yTJ3eiuVM4ymMin8GswWpVRw2gTBAK7ZjSCFHOSsaUOteg0Rch1ivm_Iz_ymp2cAevnL2fRaLzlTaCIlq-ttQAjy5NLJ5b7W-rmS3VbsCvC1vQlMf6q5nBqUTUjVMiHlRtwZblLk9ill21eDnRwj9uf7Ieb6h2k/s1600/72172458_136146974443140_2478593641900146688_n.jpg"
+                alt="Naan Savithiribaiyai Padikiren" style="width: 100%; height: 100%; object-fit: cover;"
+                onerror="this.src='assets/images/gallery-performance.png'">
+            </div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+              <span style="font-size: 0.8rem; color: var(--gold); margin-bottom: 0.5rem;">60 Minutes • Performer: P.
+                Arokia Mary Stella</span>
+              <h3 class="font-display"
+                style="font-size: 1.2rem; color: var(--text-primary); margin-bottom: 0.6rem; line-height: 1.3;">Naan
+                Savithiribaiyai Padikiren</h3>
+              <p
+                style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex: 1;">
+                A solo play honoring Savitribai Phule, pioneer of women’s education in India, staged across literary
+                festivals and national theatre summits.</p>
+              <a href="pages/blog.html#savithiribai" class="btn btn-primary"
+                style="text-align: center; justify-content: center; font-size: 0.82rem;">Read Full Story →</a>
+            </div>
+          </article>
+
+          <!-- Blog 3 -->
+          <article class="reveal delay-2"
+            style="background: var(--grad-card); border: 1px solid var(--border-subtle); border-radius: var(--radius-md); overflow: hidden; display: flex; flex-direction: column;">
+            <div style="height: 220px; overflow: hidden; position: relative;">
+              <span
+                style="position: absolute; top: 1rem; left: 1rem; z-index: 2; padding: 0.3rem 0.75rem; background: rgba(10,10,11,0.85); border: 1px solid var(--border-gold); border-radius: 100px; color: var(--gold); font-size: 0.72rem; font-weight: 600; text-transform: uppercase;">Children's
+                Theatre &amp; Ecology</span>
+              <img
+                src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiuVkQL0a6G8x5s26AHTSnDCWgFX1J_uBfu8rmlvchWWwfCYzaZAXQXyj2f4Ze5_cnUFNQabh6iX-W87NfyCm1han-X51wfe1tlEM4IH9idGTB26waKHPok_ET27xm6nk7gUEiqoQhd2dHiF0MXIO6EJSudNFGnrq-sf8iXAmgycz-9hW2lqrmWLN6ClTCX/s1280/_MG_0749.JPG"
+                alt="Meen Vaangalayo Meen" style="width: 100%; height: 100%; object-fit: cover;"
+                onerror="this.src='assets/images/gallery-students.png'">
+            </div>
+            <div style="padding: 1.5rem; display: flex; flex-direction: column; flex: 1;">
+              <span style="font-size: 0.8rem; color: var(--gold); margin-bottom: 0.5rem;">50 Minutes • Crossed 45+
+                Shows</span>
+              <h3 class="font-display"
+                style="font-size: 1.2rem; color: var(--text-primary); margin-bottom: 0.6rem; line-height: 1.3;">"Meen
+                Vaangalayo Meen"</h3>
+              <p
+                style="font-size: 0.88rem; color: var(--text-secondary); line-height: 1.6; margin-bottom: 1.25rem; flex: 1;">
+                An interactive play exploring the folklore and ecology of coastal Neithal fishermen, engaging young
+                audiences through dance and marine fables.</p>
+              <a href="pages/blog.html#meen-vaangalayo" class="btn btn-primary"
+                style="text-align: center; justify-content: center; font-size: 0.82rem;">Read Full Story →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         TESTIMONIALS (Auto Slider)
+         ============================================================ -->
+    <section class="py-section testimonials-section">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Tributes &amp; Recognition</span>
+          <h2 class="section-title">Voices of Appreciation</h2>
+        </div>
+
+        <div class="testimonial-slider-wrapper">
+          <button class="slider-btn slider-prev" id="testimonial-prev" aria-label="Previous Testimonial">‹</button>
+
+          <div class="testimonial-slider-container" id="testimonial-container">
+            <div class="testimonial-track" id="testimonial-track">
+              <!-- Review 1 -->
+              <div class="testimonial-card">
+                <div class="testimonial-card-inner">
+                  <div class="testimonial-avatar-wrap">
+                    <div class="testimonial-avatar-lg">
+                      <span>MN</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content-wrap">
+                    <span class="quote-mark">“</span>
+                    <p class="testimonial-text">Yaazh Theatre and Research Foundation serves as a vibrant hub that
+                      brings together theatre artists actively engaged in contemporary Tamil theatre. It is a valuable
+                      space for artistic exchange, collaboration, and the growth of Tamil theatre.</p>
+                    <div class="testimonial-meta">
+                      <h3 class="testimonial-name">Mr. Nassar</h3>
+                      <span class="testimonial-role">Film Actor &amp; Theatre Artist</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 2 -->
+              <div class="testimonial-card">
+                <div class="testimonial-card-inner">
+                  <div class="testimonial-avatar-wrap">
+                    <div class="testimonial-avatar-lg">
+                      <span>MP</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content-wrap">
+                    <span class="quote-mark">“</span>
+                    <p class="testimonial-text">In the contemporary Indian theatre scenario, the work of Yaazh Theatre
+                      and Research Foundation in taking theatre to ordinary people is truly commendable. Its continued
+                      efforts serve as an inspiring example for artists who aspire to remain actively engaged in theatre
+                      and contribute meaningfully to its growth.</p>
+                    <div class="testimonial-meta">
+                      <h3 class="testimonial-name">Mr. Pralayan</h3>
+                      <span class="testimonial-role">Indian Tamil Theatre Practitioner</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 3 -->
+              <div class="testimonial-card">
+                <div class="testimonial-card-inner">
+                  <div class="testimonial-avatar-wrap">
+                    <div class="testimonial-avatar-lg">
+                      <span>BC</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content-wrap">
+                    <span class="quote-mark">“</span>
+                    <p class="testimonial-text">Yaazh Theatre and Research Foundation has been creating a new light in
+                      Indian theatre and continues to move forward with its inspiring work. Thousands of audiences have
+                      turned their attention towards this new light, and many have begun joining hands with the
+                      Foundation with hope and confidence to contribute to its journey.</p>
+                    <div class="testimonial-meta">
+                      <h3 class="testimonial-name">Mr. Bava Chelladurai</h3>
+                      <span class="testimonial-role">Writer &amp; Storyteller</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Review 4 -->
+              <div class="testimonial-card">
+                <div class="testimonial-card-inner">
+                  <div class="testimonial-avatar-wrap">
+                    <div class="testimonial-avatar-lg">
+                      <span>SR</span>
+                    </div>
+                  </div>
+                  <div class="testimonial-content-wrap">
+                    <span class="quote-mark">“</span>
+                    <p class="testimonial-text">In the Tamil theatre scenario, Yaazh Theatre and Research Foundation has
+                      emerged as a sustained movement in contemporary Tamil theatre, engaging with theatre through
+                      multiple dimensions including publications, research, documentation, and a wide range of
+                      performances.</p>
+                    <div class="testimonial-meta">
+                      <h3 class="testimonial-name">Prof. S. Ravindran</h3>
+                      <span class="testimonial-role">Professor</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button class="slider-btn slider-next" id="testimonial-next" aria-label="Next Testimonial">›</button>
+        </div>
+
+        <!-- Slider Dots -->
+        <div class="testimonial-dots" id="testimonial-dots"></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============================================================
+       FOOTER
+       ============================================================ -->
+  <footer class="site-footer" id="contact" role="contentinfo">
+    <div class="footer-glow" aria-hidden="true"></div>
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="index.html" class="logo footer-logo">
+            <div class="logo-icon">
+              <img src="assets/images/Yaazh_Logo.png" alt="Yaazh Logo" width="40" height="40"
+                style="object-fit: contain;">
+            </div>
+            <div class="logo-text">
+              <span class="logo-name">Yaazh</span>
+              <span class="logo-sub">Theatre &amp; Research Foundation</span>
+            </div>
+          </a>
+          <p class="footer-tagline font-literary">"Where the stage becomes life, and life becomes art."</p>
+          <div class="footer-social">
+            <a href="https://www.facebook.com/share/1YpxTVsWM3/" target="_blank" rel="noopener noreferrer"
+              class="social-link" aria-label="Facebook">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" />
+              </svg>
+            </a>
+            <a href="https://www.instagram.com/yaazhtheatre?stkn=dGUyNmNxb3hnaW9u" target="_blank"
+              rel="noopener noreferrer" class="social-link" aria-label="Instagram">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" />
+                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+              </svg>
+            </a>
+            <a href="https://youtube.com/@yaazhtheatreandresearchfou3154?si=T520cqRXXYJXrxFq" target="_blank"
+              rel="noopener noreferrer" class="social-link" aria-label="YouTube">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+                <path
+                  d="M22.54 6.42a2.78 2.78 0 00-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 001.46 6.42 29 29 0 001 12a29 29 0 00.46 5.58a2.78 2.78 0 001.95 1.95C5.12 20 12 20 12 20s6.88 0 8.59-.47a2.78 2.78 0 001.95-1.95A29 29 0 0023 12a29 29 0 00-.46-5.58zM9.75 15.02V8.98L15.5 12l-5.75 3.02z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="pages/shop.html" class="footer-link">Book Shop</a></li>
+            <li><a href="pages/course.html" class="footer-link">Acting Course</a></li>
+            <li><a href="pages/blog.html" class="footer-link">Theatre Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Contact</h3>
+          <address class="footer-contact" style="font-style: normal;">
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" />
+                <circle cx="12" cy="10" r="3" />
+              </svg>
+              <span>No- 4, Kulathumettu Street, Thattanchavady (Villianur), Puducherry - 605110</span>
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 014.21 12 19.79 19.79 0 011.12 3.36 2 2 0 013.11 1.14h3a2 2 0 012 1.72c.13.96.36 1.9.7 2.81a2 2 0 01-.45 2.11L7.09 8.92a16 16 0 006 6l1.14-1.14a2 2 0 012.11-.45c.9.34 1.85.57 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+              <a href="tel:+919944208897">+91 9944208897</a>
+            </div>
+            <div class="contact-item">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                aria-hidden="true">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                <polyline points="22,6 12,13 2,6" />
+              </svg>
+              <a href="mailto:yaazhtheatre@gmail.com">yaazhtheatre@gmail.com</a>
+            </div>
+          </address>
+        </div>
+      </div>
+      <hr class="gold-rule footer-rule">
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="footer-year">2026</span> Yaazh Theatre. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Container -->
+  <div class="lightbox" id="gallery-lightbox">
+    <button class="lightbox-close" id="lightbox-close">&times;</button>
+    <img src="" alt="" class="lightbox-img" id="lightbox-img">
+  </div>
+
+  <!-- Scripts -->
+  <script src="scripts/main.js"></script>
+</body>
+
+</html>

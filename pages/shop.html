@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Book Shop | Yaazh Theatre & Research Foundation</title>
+  <meta name="description" content="Explore our curated collection of theatre books, research papers, and scripts focused on dramatic arts and performance studies.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="../assets/images/favicon.png">
+  <link rel="shortcut icon" href="../favicon.ico">
+  <link rel="apple-touch-icon" href="../assets/images/favicon.png">
+
+  <!-- Core Styles -->
+  <link rel="stylesheet" href="../styles/main.css">
+  <link rel="stylesheet" href="../styles/header.css">
+  <link rel="stylesheet" href="../styles/footer.css">
+  <link rel="stylesheet" href="../styles/pages.css">
+</head>
+<body data-page="shop" class="noise-overlay page-fade">
+
+  <!-- ============================================================
+       HEADER
+       ============================================================ -->
+  <header id="site-header" class="site-header" role="banner">
+    <div class="header-inner container">
+      <a href="../index.html" class="logo" aria-label="Yaazh Theatre Home">
+        <div class="logo-icon" aria-hidden="true">
+          <img src="../assets/images/Yaazh_Logo.png" alt="Yaazh Logo" width="36" height="36" style="object-fit: contain;">
+        </div>
+        <div class="logo-text">
+          <span class="logo-name">Yaazh</span>
+          <span class="logo-sub">Theatre &amp; Research Foundation</span>
+        </div>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav">
+        <ul class="nav-list">
+          <li><a href="../index.html" class="nav-link" data-page="home">Home</a></li>
+          <li><a href="shop.html" class="nav-link active" data-page="shop">Shop</a></li>
+          <li><a href="course.html" class="nav-link" data-page="course">Course</a></li>
+          <li><a href="blog.html" class="nav-link" data-page="blog">Blog</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="#contact" class="btn btn-primary btn-contact">Contact Us</a>
+        <button class="hamburger" id="hamburger-btn" aria-label="Menu"><span class="ham-bar"></span><span class="ham-bar"></span><span class="ham-bar"></span></button>
+      </div>
+    </div>
+    
+    <!-- Mobile Drawer -->
+    <div class="mobile-drawer" id="mobile-drawer" aria-hidden="true">
+      <nav aria-label="Mobile navigation">
+        <ul class="mobile-nav-list">
+          <li><a href="../index.html" class="mobile-nav-link">Home</a></li>
+          <li><a href="shop.html" class="mobile-nav-link active">Shop</a></li>
+          <li><a href="course.html" class="mobile-nav-link">Course</a></li>
+          <li><a href="blog.html" class="mobile-nav-link">Blog</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============================================================
+         SHOP HERO
+         ============================================================ -->
+    <section class="shop-hero">
+      <div class="shop-hero-bg">
+        <img src="../assets/images/books-hero.png" alt="Theatre Books Collection">
+      </div>
+      <div class="shop-hero-overlay"></div>
+      <div class="container">
+        <h1 class="shop-hero-title">The Literary <em>Stage</em></h1>
+        <p class="shop-hero-subtitle">Expand your horizons with our curated collection of theatrical research, historical scripts, and masterclass publications.</p>
+        
+        <!-- Filter Tabs -->
+        <div class="filter-tabs-wrap">
+          <div class="filter-tabs">
+            <button class="filter-tab active" data-filter="all">All Books</button>
+            <button class="filter-tab" data-filter="research">Research</button>
+            <button class="filter-tab" data-filter="scripts">Scripts</button>
+            <button class="filter-tab" data-filter="instruction">Instruction</button>
+            <button class="filter-tab" data-filter="anthology">Anthology</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         BOOKS GRID
+         ============================================================ -->
+    <section class="shop-books-section py-section">
+      <div class="container">
+        <div class="grid-3">
+          <!-- Book 1 -->
+          <div class="shop-book-card reveal" data-category="research">
+            <div class="shop-book-cover">
+              <div class="shop-book-cover-css" style="background: linear-gradient(145deg, #5C1111, #8B1A1A);">
+                <h4 class="book-cover-title" style="font-size: 1.5rem;">The Art of Theatre</h4>
+                <p class="book-cover-author">Dr. S. Ramanujam</p>
+              </div>
+            </div>
+            <div class="shop-book-info">
+              <span class="badge badge-red" style="align-self: flex-start; margin-bottom: 0.75rem;">Research</span>
+              <h3 class="shop-book-title">The Art of Theatre</h3>
+              <p class="shop-book-author">By Dr. S. Ramanujam</p>
+              <p class="shop-book-desc">A deep dive into the psychophysical aspects of acting, exploring the connection between breath, movement, and emotion.</p>
+              <div class="shop-book-footer">
+                <span class="btn-gold" style="padding: 0.4rem 0.8rem; border-radius: 4px;">₹ 450</span>
+                <a href="#" class="btn btn-primary">Add to Bag</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Book 2 -->
+          <div class="shop-book-card reveal delay-1" data-category="scripts">
+            <div class="shop-book-cover">
+              <div class="shop-book-cover-css" style="background: linear-gradient(145deg, #091E4A, #0D2B6B);">
+                <h4 class="book-cover-title" style="font-size: 1.5rem;">Silapathikaram: Modern Scripts</h4>
+                <p class="book-cover-author">Anthology</p>
+              </div>
+            </div>
+            <div class="shop-book-info">
+              <span class="badge badge-blue" style="align-self: flex-start; margin-bottom: 0.75rem;">Scripts</span>
+              <h3 class="shop-book-title">Silapathikaram: Modern Scripts</h3>
+              <p class="shop-book-author">By Yaazh Research Team</p>
+              <p class="shop-book-desc">Contemporary stage adaptations of the classic Tamil epic, formatted for modern production standards.</p>
+              <div class="shop-book-footer">
+                <span class="btn-gold" style="padding: 0.4rem 0.8rem; border-radius: 4px;">₹ 350</span>
+                <a href="#" class="btn btn-primary">Add to Bag</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Book 3 -->
+          <div class="shop-book-card reveal delay-2" data-category="instruction">
+            <div class="shop-book-cover">
+              <div class="shop-book-cover-css" style="background: linear-gradient(145deg, #2C1810, #5C2E18);">
+                <h4 class="book-cover-title" style="font-size: 1.5rem;">Voice & Expression</h4>
+                <p class="book-cover-author">Anita Lakshmi</p>
+              </div>
+            </div>
+            <div class="shop-book-info">
+              <span class="badge badge-gold" style="align-self: flex-start; margin-bottom: 0.75rem;">Instruction</span>
+              <h3 class="shop-book-title">Voice & Expression</h3>
+              <p class="shop-book-author">By Anita Lakshmi</p>
+              <p class="shop-book-desc">A practical handbook for stage actors to develop vocal power, resonance, and articulate speech.</p>
+              <div class="shop-book-footer">
+                <span class="btn-gold" style="padding: 0.4rem 0.8rem; border-radius: 4px;">₹ 299</span>
+                <a href="#" class="btn btn-primary">Add to Bag</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Book 4 -->
+          <div class="shop-book-card reveal" data-category="research">
+            <div class="shop-book-cover">
+              <div class="shop-book-cover-css" style="background: linear-gradient(145deg, #2D2D2D, #444);">
+                <h4 class="book-cover-title" style="font-size: 1.5rem;">Body as Language</h4>
+                <p class="book-cover-author">K. Vinoth</p>
+              </div>
+            </div>
+            <div class="shop-book-info">
+              <span class="badge badge-red" style="align-self: flex-start; margin-bottom: 0.75rem;">Research</span>
+              <h3 class="shop-book-title">Body as Language</h3>
+              <p class="shop-book-author">By Master K. Vinoth</p>
+              <p class="shop-book-desc">Exploring the semiotics of movement and the actor's physical presence on the proscenium stage.</p>
+              <div class="shop-book-footer">
+                <span class="btn-gold" style="padding: 0.4rem 0.8rem; border-radius: 4px;">₹ 520</span>
+                <a href="#" class="btn btn-primary">Add to Bag</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================================
+         AUTHORS SECTION
+         ============================================================ -->
+    <section class="py-section authors-section">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="section-label">Scholars</span>
+          <h2 class="section-title">The Minds Behind the Words</h2>
+          <p class="section-subtitle">Our publications are authored by practitioners who have dedicated decades to theatrical research.</p>
+        </div>
+
+        <div class="grid-3">
+          <div class="author-card reveal">
+            <div class="author-avatar" style="background: var(--grad-red);">SR</div>
+            <h3 class="author-name">Dr. S. Ramanujam</h3>
+            <span class="author-specialty">Classical Drama Scholar</span>
+            <p class="author-bio">A pioneer in modernizing traditional Indian theatre forms with over 40 years of academic experience.</p>
+          </div>
+          <div class="author-card reveal delay-1">
+            <div class="author-avatar" style="background: var(--grad-blue);">KV</div>
+            <h3 class="author-name">Master K. Vinoth</h3>
+            <span class="author-specialty">Staging & Direction</span>
+            <p class="author-bio">Renowned director focused on the intersection of technology and physical theatre performance.</p>
+          </div>
+          <div class="author-card reveal delay-2">
+            <div class="author-avatar" style="background: var(--grad-gold); color: var(--black-stage);">AL</div>
+            <h3 class="author-name">Anita Lakshmi</h3>
+            <span class="author-specialty">Vocal Master</span>
+            <p class="author-bio">Expert in Hindustani vocal techniques applied to dramatic speech and emotional projection.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact" role="contentinfo">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="../index.html" class="logo footer-logo">
+            <div class="logo-text">
+              <span class="logo-name">Yaazh</span>
+              <span class="logo-sub">Theatre &amp; Research Foundation</span>
+            </div>
+          </a>
+          <p class="footer-tagline font-literary">"Where the stage becomes life, and life becomes art."</p>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="../index.html" class="footer-link">Home</a></li>
+            <li><a href="shop.html" class="footer-link">Book Shop</a></li>
+            <li><a href="course.html" class="footer-link">Acting Course</a></li>
+            <li><a href="blog.html" class="footer-link">Theatre Blog</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-col-title">Contact</h3>
+          <address class="footer-contact">
+            <div class="contact-item">📍 Chennai, Tamil Nadu</div>
+            <div class="contact-item">📞 +91 99999 99999</div>
+            <div class="contact-item">✉️ info@yaazh.org</div>
+          </address>
+        </div>
+      </div>
+      <hr class="gold-rule footer-rule">
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; <span id="footer-year">2026</span> Yaazh Theatre. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../scripts/main.js"></script>
+</body>
+</html>
